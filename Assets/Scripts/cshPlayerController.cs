@@ -79,7 +79,7 @@ public class cshPlayerController : MonoBehaviour
                 if (enemy.GetHP() <= 0) m_attackArea.colliders.Clear(); // 현재 hp가 0이 되면 오브젝트 사라지게 
             }
             else
-            {
+            { // breakableObject라면
                 Destroy(collider.gameObject); // 충돌된 object를 destroy
             }
         }
