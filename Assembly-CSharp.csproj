@@ -62,8 +62,8 @@
     <Compile Include="Assets\Scripts\cshPlayerController.cs" />
     <Compile Include="Assets\Camera\MouseAimCamera.cs" />
     <Compile Include="Assets\Scripts\cshButton.cs" />
-    <Compile Include="Assets\Camera\DungeonCamera.cs" />
     <Compile Include="Assets\Scripts\cshDestroyTimer.cs" />
+    <Compile Include="Assets\Camera\DungeonCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
