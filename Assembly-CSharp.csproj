@@ -53,11 +53,16 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Camera\FollowCamera.cs" />
-    <Compile Include="Assets\Camera\MouseAimCamera.cs" />
     <Compile Include="Assets\Camera\LookAtCamera.cs" />
-    <Compile Include="Assets\Camera\DungeonCamera.cs" />
+    <Compile Include="Assets\Camera\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\cshJoystick.cs" />
+    <Compile Include="Assets\Scripts\cshPlayerController.cs" />
+    <Compile Include="Assets\Camera\MouseAimCamera.cs" />
+    <Compile Include="Assets\Camera\DungeonCamera.cs" />
+    <Compile Include="Assets\Scripts\cshAttackArea.cs" />
+    <Compile Include="Assets\Scripts\cshButton.cs" />
+    <Compile Include="Assets\Scripts\cshBreakableObject.cs" />
+    <Compile Include="Assets\Scripts\cshEnemyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
